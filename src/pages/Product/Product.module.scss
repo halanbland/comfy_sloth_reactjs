@@ -1,0 +1,305 @@
+.wrapper {
+    
+}
+
+.container {
+    margin-top: 64px;
+    margin-bottom: 64px;
+    display: flex
+}
+
+.search__input {
+    padding: 10px;
+    background-color: #f1f5f8;
+    border-radius: 4px;
+    border: none;
+    width: 100%;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+
+.sidebar {
+    position: sticky;
+    position: -webkit-sticky;
+    top: 20px;
+}
+
+// Category
+.category {
+    margin-bottom: 20px;
+}
+
+.category__title {
+    letter-spacing: 2px;
+    margin: 0 0 8px;
+}
+
+.category__list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.category__list-item {
+    font-size: 1.4rem;
+    color: #617d98;
+    cursor: pointer;
+    padding: 4px 0;
+    border-top: 1px solid transparent;
+    border-bottom: 1px solid transparent;
+    border-right: none;
+    border-left: none;
+    background-color: #fff;
+    letter-spacing: 1.2px;
+}
+
+.category__list-item.category__list-item--active {
+    border-bottom-color: #617d98;
+}
+
+.category__list-item:hover {
+    border-bottom-color: #617d98;
+}
+
+// Company
+.company {
+    margin-bottom: 20px;
+}
+
+.company__title {
+    letter-spacing: 2px;
+    margin: 0 0 8px;
+}
+
+.company__select {
+    padding: 4px;
+    background-color: #f1f5f8;
+    border: none;
+}
+
+
+// color
+.colors {
+    margin-bottom: 20px;
+    
+}
+
+.colors__all {
+    margin-right: 8px;
+}
+
+.colors__title {
+    letter-spacing: 2px;
+    margin: 0 0 8px;
+}
+
+.colors__list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+
+.colors__list-item {
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background-color: red;
+    margin-right: 8px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.color__list-icon {
+    display: none;
+    color: #fff;
+    font-size: 1rem;
+}
+// '#ff0000', '#00ff00', '#0000ff''#000', '#ffb900'
+
+
+
+// price
+.price {
+    margin-bottom: 20px;
+}
+
+.price__title {
+    letter-spacing: 2px;
+    margin: 0 0 14px;
+}
+
+.price__curr {
+    margin: 0 0 8px;
+    font-size: 1.5rem;
+}
+
+.free-shipping {
+    margin-bottom: 20px;
+    width: 50%;
+}
+
+.free-shipping__wrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.free-shipping__title {
+    color: #617d98;
+}
+
+.clear-filter__btn {
+    padding: 5px 8px;
+    background-color: #bb2525;
+    border-radius: 4px;
+    color: #fff;
+    letter-spacing: 2px;
+    cursor: pointer;
+    border: none;
+}
+
+// Content
+.content {
+
+}
+
+.fitler {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    // margin-bottom: 32px;
+}
+
+.filter__display {
+
+}
+
+.filter__display-full {
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+}
+
+.filter__display-list {
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+    margin-left: 8px;
+}
+
+.filter__num {
+    margin-left: 30px;
+}
+
+.line {
+    flex: 1;
+    height: 1px;
+    background-color: #617d98;
+    margin-left: 30px;
+}
+
+.filter__type {
+    margin-left: 30px;
+}
+
+.select-type {
+    border: none;
+    font-size: 1.6rem;
+    margin-left: 8px;
+    cursor: pointer;
+}
+
+// product list
+.product__list {
+    padding: 0;
+    list-style: none;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.product__list-item {
+    margin-top: 30px;
+}
+
+.product__list-item-wrap {
+    position: relative;
+    height: 175px;
+}
+
+.product__list-item-wrap:hover{
+    .product__list-item-img{
+
+        opacity: 0.5;
+    }
+    .product__list-item-link{
+        opacity: 1;
+    }
+}
+
+.product__list-item-img {
+    width: 100%;
+    height: 175px;
+    object-fit: cover;
+    border-radius: 4px;
+    transition: all linear 0.2s;
+}
+
+.product__list-item-link {
+    cursor: pointer;
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: var(--primary-color);
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: all linear 0.2s;
+
+}
+
+.product__detail {
+    margin: 16px 0 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.product__detail-name {
+    letter-spacing: 2px;
+    font-size: 1.5rem;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+
+.product__detail-price {
+ color: var(--primary-color);
+}
+
+
+
+// responship
+@media (min-width: 740px) and (max-width: 1023px) {
+    .container {
+        display: flex;
+        flex-wrap: nowrap;
+        
+    }
+}
+
+
+// mobie
+@media (max-width: 740px){
+    .fitler {
+        display: none;
+    }
+}
+

@@ -1,0 +1,22 @@
+.wrapper {
+    background-color: var(--three-color);
+    font-size: 3.2rem;
+    font-weight: 600;
+}
+
+.content {
+    height: 120px;
+    display: flex;
+    align-items: center;
+}
+
+.nav-home {
+    color: #795744;
+    text-decoration: none;
+}
+
+.curr-page {
+color: #453227;
+margin: 0;
+text-transform: capitalize;
+}

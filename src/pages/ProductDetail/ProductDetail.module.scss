@@ -1,0 +1,199 @@
+.name {
+    color: #453227;
+    margin: 0;
+    text-transform: capitalize;
+}
+
+.container {
+    padding: 80px 0;
+}
+
+.content {
+    margin: 40px 0 0;
+}
+
+.about__img {
+   
+}
+
+.btn__datail {
+    padding: 7px 14px;
+    background-color: var(--primary-color);
+    color: #dfd2d2;
+    letter-spacing: 2px;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+}
+
+.btn__datail:hover {
+    opacity: 0.7;
+    color: #000;
+}
+
+.about__img-main {
+    width: 100%;
+    border-radius: 4px;
+    height: 500px;
+    object-fit: cover;
+}
+
+.about__img-sub {
+    display: flex;
+    
+    margin: 0 -8px;
+}
+
+.img-sub {
+   width: 100%;
+   height: 100%;
+    display: inline-block;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.img-sub.img-sub--active {
+    border: 2px solid var(--primary-color);
+}
+
+.img-sub__wrap {
+    width: 20%;
+    height: 75px;
+    object-fit: cover;
+    padding: 0 8px ;
+    margin: 12px 0 0;
+}
+
+
+
+.info {
+
+}
+
+.product__name {
+    font-size: 4rem;
+    letter-spacing: 2px;
+    margin: 0 0 12px;
+    text-transform: capitalize;
+}
+
+
+.evaluate {
+    display: flex;
+    margin: 0 0 12px;
+}
+
+.stars {
+    color: orange;
+}
+
+.review {
+    margin-left: 20px;
+}
+
+.price {
+    font-size: 20px;
+    color:var(--primary-color);
+    font-weight: 600;
+    margin: 0 0 12px;
+    letter-spacing: 2px;
+}
+
+.description {
+    line-height: 3.4rem;
+    color: #324d67;
+    margin: 0 0 20px;
+}
+
+.status {
+    font-weight: 600;
+    color: #324d67;
+    margin-bottom: 20px;
+}
+
+.status span {
+    font-weight: 400;
+    margin-left: 20px;
+}
+
+.sku {
+    font-weight: 600;
+    color: #324d67;
+    margin-bottom: 20px;
+
+}
+
+.sku span {
+    font-weight: 400;
+    margin-left: 20px;
+}
+
+.brand {
+    font-weight: 600;
+    color: #324d67;
+    margin-bottom: 20px;
+
+}
+
+.brand span {
+    font-weight: 400;
+    margin-left: 20px;
+}
+
+.underline {
+    height: 1px;
+    background-color: #324d67;
+    margin-bottom: 30px;
+
+}
+
+.color {
+    font-weight: 600;
+    color: #324d67;
+    margin-bottom: 24px;
+    display: flex;
+    align-items: center;
+}
+
+.color span{
+    font-weight: 400;
+    margin-left: 20px;
+}
+
+.check {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+
+.check-icon {
+    display: none;
+}
+
+.count {
+    margin: 0 12px 12px;
+}
+
+.num {
+    font-size: 40px;
+    font-weight: 600;
+    margin: 20px;
+}
+
+.btn__datail {
+    text-decoration: none;
+}
+
+.decrease {
+    font-size: 2.8rem;
+    cursor: pointer;
+}
+
+.increase {
+    font-size: 2.8rem;
+    cursor: pointer;
+}
